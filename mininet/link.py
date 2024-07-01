@@ -28,7 +28,7 @@ import re
 
 from mininet.log import info, error, debug
 from mininet.util import makeIntfPair
-import mininet.node
+# import mininet.node
 
 # Make pylint happy:
 # pylint: disable=too-many-arguments
