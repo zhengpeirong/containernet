@@ -220,7 +220,7 @@ class Intf( object ):
         # quietRun( 'ip link del ' + self.name )
         self.node.delIntf( self )
         self.link = None
-
+        import mininet.node
         # call detach if we have a OVSSwitch (just to be sure)
         if isinstance( self.node, mininet.node.OVSSwitch ):
             self.node.detach(self)
